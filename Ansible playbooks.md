@@ -133,7 +133,7 @@ To keep sensitive data such as passwords or keys in encrypted files.
   
   - To edit the encripted vault file use the following and give the password of the file when prompted.
 
-        ansible-vault edit mysecrets.yml
+        ansible-vault edit <filename>.yml
 
   - To encript an existing YAML file(playbook) use the following command and set up a password
 
